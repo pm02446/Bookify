@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body {
+    background-color: #cccccc;
+    background-image: radial-gradient(#740fbd 55%, #000000);
+    opacity: 1;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+#homepageBackground {
+    background-color: #cccccc;
+    background-image: url("background.gif");
+    opacity: .5;
+    filter: blur(4px);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+}
